@@ -1,5 +1,6 @@
 from langchain import OpenAI
 from langchain.agents import create_pandas_dataframe_agent
+import streamlit as st
 import pandas as pd
 
 # Setting up the api key
