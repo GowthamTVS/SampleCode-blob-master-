@@ -8,7 +8,7 @@ import environ
 env = environ.Env()
 environ.Env.read_env()
 
-API_KEY = env("apikey")
+API_KEY = st.secrets["auth_key"]
 
 
 def create_agent(filename: str):
